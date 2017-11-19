@@ -25,7 +25,7 @@ public class Slf4jTest extends HttpServlet {
       throws ServletException, IOException {
 
     for (int i = 0; i < 100; i++) {
-      LOG.info("This is a message");
+      LOG.info("This is \n 3 345345345 \n\r adfdf \r\n message");
     }
     // Set response content type
     response.setContentType("text/html");
